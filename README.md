@@ -1,2 +1,2 @@
-# websocket-chat-app
-A real-time chat application using Spring Boot and WebSocket for seamless, live communication between users.
+# Spring-Boot-WebSocket
+Building a chat application using Spring Boot and Web Socket
