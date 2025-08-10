@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  chat-box:
+    container_name: chat-box
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: chat-box:latest
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
